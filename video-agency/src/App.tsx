@@ -48,7 +48,7 @@ function App() {
         </nav>
 
         {/* Hero Section */}
-        <main className="flex flex-1 flex-col items-center justify-center text-center mt-12 md:mt-0 pb-18 sm:pb-32">
+        <main className="flex flex-1 flex-col items-center justify-center text-center mt-12 md:mt-0 pb-10 sm:pb-16">
           <div className="max-w-4xl px-4 sm:px-6">
             {/* Primary Headline */}
             <h1 className="flex flex-col items-center text-black">
@@ -67,8 +67,8 @@ function App() {
 
             {/* Secondary CTA */}
             <div className="mt-10 flex justify-center">
-              <button className="group flex items-center justify-center gap-3 rounded-full bg-black px-8 py-4 text-base font-semibold text-white shadow-xl transition-all hover:scale-105 hover:bg-gray-900">
-                <Play className="h-5 w-5 fill-white transition-transform group-hover:scale-110" />
+              <button className="group flex items-center justify-center gap-3 rounded-full bg-white/20 backdrop-blur-sm border border-white/40 shadow-xl px-8 py-4 text-base font-semibold text-black transition-all hover:scale-105 hover:bg-white/30 hover:shadow-2xl">
+                <Play className="h-5 w-5 fill-black transition-transform group-hover:scale-110" />
                 See Our Workreel
               </button>
             </div>
