@@ -48,7 +48,7 @@ function App() {
         </nav>
 
         {/* Hero Section */}
-        <main className="flex flex-1 flex-col items-center justify-center text-center mt-62 md:mt-0">
+        <main className="flex flex-1 flex-col items-center justify-center text-center mt-12 md:mt-0 pb-18 sm:pb-32">
           <div className="max-w-4xl px-4 sm:px-6">
             {/* Primary Headline */}
             <h1 className="flex flex-col items-center text-black">
@@ -61,9 +61,9 @@ function App() {
             </h1>
 
             {/* Subtext */}
-            {/* <p className="mt-6 md:mt-8 text-[16px] md:text-[18px] font-medium text-black">
+            <p className="mt-6 md:mt-8 text-[16px] md:text-[18px] font-medium text-black">
               Short-form video editing for Influencers, Creators and Brands
-            </p> */}
+            </p>
 
             {/* Secondary CTA */}
             <div className="mt-10 flex justify-center">
