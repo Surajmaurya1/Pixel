@@ -19,14 +19,7 @@ A premium, high-end hero section for a video editing agency named 'Pixel'. This 
 
 ## Setup & Running Locally
 
-The source code is located inside the `video-agency` directory. You can navigate into it to run the application:
-
-1. **Navigate to the project directory**
-   ```bash
-   cd video-agency
-   ```
-
-2. **Install dependencies**
+1. **Install dependencies**
    ```bash
    npm install
    ```
